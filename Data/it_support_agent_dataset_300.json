@@ -1,0 +1,3835 @@
+[
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "restart_service",
+      "query": "The printer is not working.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "reset_password",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "restart_service",
+      "query": "The printer is not working.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "ticket_id": "TCK-8667",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "check_network_status",
+      "query": "My laptop is overheating.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "reset_password",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "reset_password",
+      "query": "The printer is not working.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "restart_service",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "My computer is very slow.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "reset_password",
+      "query": "The printer is not working.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "check_network_status",
+      "query": "My computer is very slow.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "ticket_id": "TCK-9462",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "I forgot my password.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "install_update",
+      "query": "My computer is very slow.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "The printer is not working.",
+      "result": {
+        "ticket_id": "TCK-1189",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "install_update",
+      "query": "My computer is very slow.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "The printer is not working.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "ticket_id": "TCK-1771",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "I forgot my password.",
+      "result": {
+        "ticket_id": "TCK-3468",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "reset_password",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "identify_issue",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "My computer is very slow.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "restart_service",
+      "query": "I forgot my password.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "restart_service",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "identify_issue",
+      "query": "The printer is not working.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "install_update",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "check_network_status",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "I forgot my password.",
+      "result": {
+        "ticket_id": "TCK-1726",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "install_update",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "My laptop is overheating.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "identify_issue",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "My computer is very slow.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "identify_issue",
+      "query": "I forgot my password.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "reset_password",
+      "query": "The printer is not working.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "restart_service",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "install_update",
+      "query": "I forgot my password.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "restart_service",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "reset_password",
+      "query": "I forgot my password.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "identify_issue",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "reset_password",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "restart_service",
+      "query": "My laptop is overheating.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "reset_password",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "ticket_id": "TCK-6762",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "identify_issue",
+      "query": "I forgot my password.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "The printer is not working.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "check_network_status",
+      "query": "My computer is very slow.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "check_network_status",
+      "query": "My computer is very slow.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "My laptop is overheating.",
+      "result": {
+        "ticket_id": "TCK-2428",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "The printer is not working.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "reset_password",
+      "query": "I forgot my password.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "identify_issue",
+      "query": "The printer is not working.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "install_update",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "My computer is very slow.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "I forgot my password.",
+      "result": {
+        "ticket_id": "TCK-7263",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "check_network_status",
+      "query": "My computer is very slow.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "reset_password",
+      "query": "The printer is not working.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "ticket_id": "TCK-9466",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "My computer is very slow.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "restart_service",
+      "query": "My computer is very slow.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "install_update",
+      "query": "My laptop is overheating.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "identify_issue",
+      "query": "My laptop is overheating.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "identify_issue",
+      "query": "I forgot my password.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "restart_service",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "identify_issue",
+      "query": "My laptop is overheating.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "restart_service",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "reset_password",
+      "query": "I forgot my password.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "reset_password",
+      "query": "My computer is very slow.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "identify_issue",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "reset_password",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "reset_password",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "restart_service",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "install_update",
+      "query": "My laptop is overheating.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "check_network_status",
+      "query": "The printer is not working.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "install_update",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "identify_issue",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "reset_password",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "restart_service",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "identify_issue",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "install_update",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "reset_password",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "install_update",
+      "query": "The printer is not working.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "check_network_status",
+      "query": "The printer is not working.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "The printer is not working.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "identify_issue",
+      "query": "I forgot my password.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "restart_service",
+      "query": "The printer is not working.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "install_update",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "ticket_id": "TCK-3703",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "install_update",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "I forgot my password.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "check_network_status",
+      "query": "My computer is very slow.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "restart_service",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "reset_password",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "check_network_status",
+      "query": "The printer is not working.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "identify_issue",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "I forgot my password.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "restart_service",
+      "query": "I forgot my password.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "I forgot my password.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "restart_service",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "The printer is not working.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "My computer is very slow.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "My computer is very slow.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I forgot my password.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "ticket_id": "TCK-1040",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "identify_issue",
+      "query": "I forgot my password.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "restart_service",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "The printer is not working.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "My laptop is overheating.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "check_network_status",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "reset_password",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "check_network_status",
+      "query": "My computer is very slow.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "restart_service",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "My computer is very slow.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "install_update",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "check_network_status",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "reset_password",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "restart_service",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "reset_password",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "ticket_id": "TCK-9194",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "My computer is very slow.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "reset_password",
+      "query": "The printer is not working.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "My laptop is overheating.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "ticket_id": "TCK-3322",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "My laptop is overheating.",
+      "result": {
+        "ticket_id": "TCK-2950",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "I forgot my password.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "restart_service",
+      "query": "My laptop is overheating.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "I forgot my password.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "check_network_status",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "restart_service",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "I forgot my password.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "install_update",
+      "query": "I forgot my password.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "ticket_id": "TCK-8395",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "ticket_id": "TCK-9563",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "identify_issue",
+      "query": "My computer is very slow.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "install_update",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "identify_issue",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "restart_service",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "restart_service",
+      "query": "My laptop is overheating.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "install_update",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "The printer is not working.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "identify_issue",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "identify_issue",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "My laptop is overheating.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "reset_password",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "My computer is very slow.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "restart_service",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "My laptop is overheating.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "restart_service",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "install_update",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "check_network_status",
+      "query": "My laptop is overheating.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "reset_password",
+      "query": "My computer is very slow.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I forgot my password.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "The printer is not working.",
+      "result": {
+        "ticket_id": "TCK-7314",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "ticket_id": "TCK-2817",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "reset_password",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "check_network_status",
+      "query": "My laptop is overheating.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "restart_service",
+      "query": "My laptop is overheating.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "install_update",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "identify_issue",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "reset_password",
+      "query": "My computer is very slow.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "The printer is not working.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "My computer is very slow.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "I forgot my password.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "identify_issue",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "My computer is very slow.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "My computer is very slow.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "ticket_id": "TCK-2405",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "identify_issue",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "reset_password",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "check_network_status",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I forgot my password.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "restart_service",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "reset_password",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I forgot my password.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "identify_issue",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "install_update",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "reset_password",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "install_update",
+      "query": "My computer is very slow.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "reset_password",
+      "query": "My computer is very slow.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "install_update",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "reset_password",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "install_update",
+      "query": "My computer is very slow.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "ticket_id": "TCK-7473",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "install_update",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "The printer is not working.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "identify_issue",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "reset_password",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "install_update",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "install_update",
+      "query": "The printer is not working.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "The printer is not working.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "check_network_status",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "My laptop is overheating.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "install_update",
+      "query": "My laptop is overheating.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "I forgot my password.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "restart_service",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "install_update",
+      "query": "My laptop is overheating.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I forgot my password.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "ticket_id": "TCK-6088",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "identify_issue",
+      "query": "The printer is not working.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "identify_issue",
+      "query": "My laptop is overheating.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "identify_issue",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "identify_issue",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "check_network_status",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "reset_password",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "identify_issue",
+      "query": "My laptop is overheating.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "I forgot my password.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "restart_service",
+      "query": "The printer is not working.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "I forgot my password.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "ticket_id": "TCK-3872",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "reset_password",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "install_update",
+      "query": "My computer is very slow.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "restart_service",
+      "query": "The printer is not working.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "reset_password",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "reset_password",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "The printer is not working.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "restart_service",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "I forgot my password.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "reset_password",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "reset_password",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "There is a blue screen error after startup.",
+    "output": {
+      "action": "check_network_status",
+      "query": "There is a blue screen error after startup.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "The printer is not working.",
+      "result": {
+        "ticket_id": "TCK-3398",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "I forgot my password.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "I forgot my password.",
+    "output": {
+      "action": "restart_service",
+      "query": "I forgot my password.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "reset_password",
+      "query": "My computer is very slow.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "install_update",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "ticket_id": "TCK-9098",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "install_update",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "check_network_status",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "ping_result": "Average latency 23ms",
+        "packet_loss": "0%"
+      },
+      "reasoning": "Connectivity issues were reported; checking network performance."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "install_update",
+      "query": "My computer is very slow.",
+      "result": {
+        "update": "KB5021234",
+        "status": "installed successfully"
+      },
+      "reasoning": "User reported update problems; initiating update manually."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "My laptop is overheating.",
+      "result": {
+        "ticket_id": "TCK-9180",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "My computer is very slow.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "My computer is very slow.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "The printer is not working.",
+    "output": {
+      "action": "clean_temp_files",
+      "query": "The printer is not working.",
+      "result": {
+        "files_removed": 542,
+        "space_freed_mb": 120.5
+      },
+      "reasoning": "System is slow; cleaning unnecessary files to improve performance."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "suggest_fix",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "steps": [
+          "Open Task Manager",
+          "End unnecessary processes",
+          "Run Disk Cleanup"
+        ]
+      },
+      "reasoning": "A general performance issue was described; suggesting steps for resolution."
+    }
+  },
+  {
+    "input": "My laptop is overheating.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "My laptop is overheating.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  },
+  {
+    "input": "VPN connection keeps dropping.",
+    "output": {
+      "action": "escalate_ticket",
+      "query": "VPN connection keeps dropping.",
+      "result": {
+        "ticket_id": "TCK-6272",
+        "priority": "high",
+        "assigned_to": "Tier 2 Support"
+      },
+      "reasoning": "The issue appears complex or recurring; escalation is appropriate."
+    }
+  },
+  {
+    "input": "I get error code 0x80070005 when installing updates.",
+    "output": {
+      "action": "lookup_error_code",
+      "query": "I get error code 0x80070005 when installing updates.",
+      "result": {
+        "error_code": "0x80070005",
+        "meaning": "Access Denied during update installation.",
+        "solution": "Run Windows Update Troubleshooter."
+      },
+      "reasoning": "User reported a known error code, looking up details."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "restart_service",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "reset_password",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "user": "john.doe",
+        "status": "temporary password set"
+      },
+      "reasoning": "User cannot access account; password reset initiated."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "identify_issue",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "Wi-Fi is disconnecting frequently.",
+    "output": {
+      "action": "restart_service",
+      "query": "Wi-Fi is disconnecting frequently.",
+      "result": {
+        "service": "Outlook",
+        "status": "restarted"
+      },
+      "reasoning": "The user is experiencing a malfunction with a specific service, a restart may resolve it."
+    }
+  },
+  {
+    "input": "I can't access the shared drive.",
+    "output": {
+      "action": "identify_issue",
+      "query": "I can't access the shared drive.",
+      "result": {
+        "diagnosis": "Likely software or configuration issue.",
+        "error_code": "ERR_SYS_001"
+      },
+      "reasoning": "User described a common performance issue, initial diagnostics suggested."
+    }
+  },
+  {
+    "input": "Outlook is not sending emails.",
+    "output": {
+      "action": "free_disk_space",
+      "query": "Outlook is not sending emails.",
+      "result": {
+        "before_gb": 5.3,
+        "after_gb": 12.8,
+        "methods": [
+          "clean_temp_files",
+          "remove_old_backups"
+        ]
+      },
+      "reasoning": "Low disk space reported; attempting to free up space."
+    }
+  }
+]
